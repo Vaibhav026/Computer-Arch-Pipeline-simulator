@@ -1,0 +1,10 @@
+MOV r0,#4
+MOV r1,#1000
+STR r0,[r1]
+LDR r2,[r1]
+ADD r3,r2,r2
+SUB r4,r3,r2
+ADD r5,r4,r1
+STR r1,[r5]
+LDR r6,[r5]
+MOV r7,r6
